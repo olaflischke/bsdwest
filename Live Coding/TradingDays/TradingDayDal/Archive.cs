@@ -21,7 +21,7 @@ namespace TradingDayDal
             var qDays = xmlDoc.Root.Descendants()
                 .Where(xe => xe.Name.LocalName == "Cube" && xe.Attributes().Any(at => at.Name == "time"))
                 // Projektion
-                .Select(xe => new TradingDay(xe));
+                .Select(xe => new TradingDay(xe, true));
 
             return qDays.ToList();
         }
