@@ -18,10 +18,10 @@ namespace TradingDayDal
         {
             XDocument xmlDoc=XDocument.Load(url);
 
-            var qDays = xmlDoc.Root.Descendants()
-                .Where(xe => xe.Name.LocalName == "Cube" && xe.Attributes().Any(at => at.Name == "time"))
-                // Projektion
-                .Select(xe => new TradingDay(xe, true));
+            IEnumerable<TradingDay>? qDays = xmlDoc.Root.Descendants()
+                                                        .Where(xe => xe.Name.LocalName == "Cube" && xe.Attributes().Any(at => at.Name == "time"))
+                                                        // Projektion
+                                                        .Select(xe => new TradingDay(xe, true));
 
             return qDays.ToList();
         }

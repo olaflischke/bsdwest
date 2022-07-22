@@ -47,7 +47,6 @@ namespace TradingDayDal
                                                                             Symbol = el.Attribute("currency").Value
                                                                         })
                                                             .ToList();
-
         }
 
         public DateOnly Date { get; set; }
