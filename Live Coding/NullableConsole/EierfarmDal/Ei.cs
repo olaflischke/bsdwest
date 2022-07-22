@@ -11,7 +11,7 @@ namespace EierfarmDal
 
         }
 
-        public Ei(Huhn mutter)
+        public Ei(IEileger mutter)
         {
             Random random = new();
             this.Gewicht = random.Next(45, 81);
@@ -24,7 +24,7 @@ namespace EierfarmDal
 
         [ForeignKey("Id")]
         [InverseProperty("Eier")]
-        public Huhn Mutter { get; set; }
+        public IEileger Mutter { get; set; }
 
         public int MutterId { get; set; }
         public double Gewicht { get; set; }

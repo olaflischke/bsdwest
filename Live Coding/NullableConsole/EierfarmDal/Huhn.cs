@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace EierfarmDal
 {
-    public class Huhn
+    public class Huhn : IEileger
     {
         public string Name { get; set; }
 

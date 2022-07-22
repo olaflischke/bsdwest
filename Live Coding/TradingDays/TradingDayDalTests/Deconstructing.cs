@@ -64,15 +64,6 @@ namespace TradingDayDalTests
             }
         }
 
-        void CheckString()
-        {
-            string plz = "44797";
-
-            if (double.TryParse(plz, out double zahl))
-            {
-                
-            }
-        }
 
         void DeconstructingClass()
         {

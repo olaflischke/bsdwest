@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32630.192
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorthwindDal", "NorthwindDal\NorthwindDal.csproj", "{5D6BCC35-17FD-48F4-A44A-9F8EA2614418}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestProject1", "TestProject1\TestProject1.csproj", "{58121CF5-18F2-4241-B365-2BA30F673898}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D6BCC35-17FD-48F4-A44A-9F8EA2614418}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D6BCC35-17FD-48F4-A44A-9F8EA2614418}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D6BCC35-17FD-48F4-A44A-9F8EA2614418}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D6BCC35-17FD-48F4-A44A-9F8EA2614418}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58121CF5-18F2-4241-B365-2BA30F673898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58121CF5-18F2-4241-B365-2BA30F673898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58121CF5-18F2-4241-B365-2BA30F673898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58121CF5-18F2-4241-B365-2BA30F673898}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A48EA8CB-3246-4692-9596-57E5149379B5}
+	EndGlobalSection
+EndGlobal
